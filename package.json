@@ -1,0 +1,22 @@
+{
+  "name": "soda_bootcamp",
+  "version": "1.0.0",
+  "description": "SoDA Bootcamp 11-7-2021",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderono7/SoDA-Bootcamp.git"
+  },
+  "keywords": [
+    "bootcamp"
+  ],
+  "author": "Alexander Ono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderono7/SoDA-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/alexanderono7/SoDA-Bootcamp#readme"
+}
