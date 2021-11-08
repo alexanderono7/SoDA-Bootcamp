@@ -4,7 +4,8 @@
   "description": "SoDA Bootcamp 11-7-2021",
   "main": "index.html",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "live": "live-server"
   },
   "repository": {
     "type": "git",

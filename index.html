@@ -4,24 +4,50 @@
 
 <head>
     <title>Alexander Ono Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <p>Alexander Ono <span>_</span></p>
+<body class="background">
+    <p class="page-title" id="intro_page_title">ALEXANDER ONO<span id="cursor">_</span></p>
     <div>
-        <img src="https://github.com/alexanderono7.png">
-        <p>
-            Undergraduate Computer Science Major at Arizona State University, Fulton School of Engineering. @ <span>ASU</span> <br>
+        <img id="profile_pic" class="center" img src="https://github.com/alexanderono7.png">
+        <p id="summary-content">
+            Undergraduate Computer Science Major at Arizona State University, Fulton School of Engineering. @ <span id="ASU">ASU</span> <br>
             Graduating 20XX 🎓
         </p>
     </div>
 
-    <button onclick="location.href='projects.html'">
-        ./projects
-    </button>
+    <div class="center">
+        <button onclick="location.href='projects.html'" class="toggle-button" id="projects-toggle">
+            ./projects
+        </button>
+        
+        <button class="toggle-button" id="experience-toggle">
+            ./experience
+        </button>
+    </div>
+<div style="position: fixed; bottom: 0; left: 0">
 
-    <button>
-        ./experience
-    </button>
+    <div>
+        <a target="_blank" href="https://www.linkedin.com/in/alexander-ono-226a77188/">
+            <img src="./assets/linkedin-in-brands.svg" height="50" weight="50" alt="My Linkedin">
+        </a>
+        
+        <a target="_blank" href="mailto:amono1@asu.edu/">
+            <img src="./assets/envelope-regular.svg" height="50" weight="50" alt="My Email">
+        </a>
+        
+        <a target="_blank" href="https://github.com/alexanderono7">
+            <img src="./assets/github-brands.svg" height="50" weight="50" class="github-filter" alt="My Github">
+        </a>
+
+        <a target="_blank" href="https://m.media-amazon.com/images/I/51M8TE4xZrL._AC_SY355_.jpg">
+            <img src="./assets/instagram-brands.svg" height="50" weight="50" alt="Obama">
+        </a>
+        
+    </div>
+</div>
+
+<script src="./cursor.js"></script>
 </body>
 </html>
