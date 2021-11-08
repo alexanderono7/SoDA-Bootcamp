@@ -1,0 +1,2 @@
+#stops certain files from being synced to github
+node_modules/
